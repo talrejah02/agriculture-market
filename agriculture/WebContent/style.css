@@ -1,0 +1,126 @@
+
+/* <body style="'Robot',sans-serif,Arial"> */
+body{
+    font-family: 'Robot',sans-serif,Arial;
+}
+
+
+.main{ height: 100%; width: 100%;  }  
+.part{ height: 250px; width: 100%; background-image: url(images/img1.jpg);background-repeat: no-repeat;background-size: cover; padding: 15px; box-sizing: border-box;box-shadow: 0px 0px 10px black;}
+.part1{ height: 250px; width: 74%; font-size: 60px; float: left;}
+.part1 p{margin: 0; margin-top: 30px; margin-left: 30px;}
+.part2{ height: 250px; width: 25%; float: left;}
+.part2 i{background-color: transparent;transition:1s;border-radius: 50%;padding: 10px;font-size: 20px; margin-left: 40px; margin-top: 145px;}
+.part i:hover{background-color: white;}
+.nav{ height: 50px; width: 100%; background-color: rgb(137, 192, 194)}
+.ul{ margin: 0px; list-style: none;padding: 0px;}
+.li{ float: left ; font-size: 19px; font-weight: 800; position: relative; transition: 1s;padding: 7px;margin-left: 10px; margin-top: -10px;}
+ .li:hover{ background-color:grey; cursor: pointer;  box-shadow: 0px 0px 5px black;  }
+ .li:hover .ul1{ display: block;}
+ .li:hover .ul2{ display: block;}
+ .li:hover .ul3{ display: block;}
+
+.ul1{ margin: 0; list-style: none; position: absolute; padding: 0; display: none;top: 40px;}
+.li1{ font-size: 15px; padding: 5px; border: 1px black solid; width:75px; transition: 1s; background-color: rgb(255, 255, 255); }
+.li1:hover{background-color:grey;}
+
+.ul2{ margin: 0; list-style: none; position: absolute; padding: 0; display: none;top: 40px;}
+.li2{ font-size: 15px; padding: 5px; border: 1px black solid; width: 130px;transition: 1s;  background-color: rgb(255, 255, 255);}
+.li2:hover{background-color:grey;}
+
+.ul3{ margin: 0; list-style: none; position: absolute; padding: 0; display: none;top: 40px;}
+.li3{ font-size: 15px; padding: 5px; border: 1px black solid; width: 130px;transition: 1s;  background-color: rgb(255, 255, 255);}
+.li3:hover{background-color:grey;}
+
+.image{ height:685px; width: 100%; background-image: url(images/whitetexture.gif);}
+.mid{ height: 320px; width: 100%; margin-top: 10px;}
+.mid1{ height: 300px; width: 25%; background-color: rgb(106, 238, 106); float: left; margin-left: 40px; margin-top: 7px;}
+.mid2{ height: 300px; width: 40%;  margin-left: 2px; float: left; margin-top: 7px;}
+.mid3{ height: 300px; width: 25%; background-color: rgb(106, 238, 106); float: left; margin-left: 40px; margin-top: 7px;}
+.title1{ height: 40px; width: 100%; background-color: rgb(52, 165, 111);}
+
+.view{ height: 300px; width: 80%; margin-left: 150px; margin-top: 10px; background-color:  rgb(227, 232, 236); }
+.mission{ height: 120px; width: 100%;} 
+.mission1{ height: 30px; width: 100%; background-color:  rgb(52, 165, 111);}
+.mission2{ height: 100px; width: 100%;}
+
+.vision{ height: 150px; width: 100%;} 
+.vision1{ height: 30px; width: 100%; background-color: rgb(52, 165, 111);}
+.vision2{ height: 120px; width: 100%;}
+
+
+
+.foot{height: 40px;width: 100%;;padding-left: 500px;background-color:grey; box-sizing: border-box; margin-bottom: 0%;}
+.foot a{text-decoration: none;color: black;font-size: 20px;font-weight: bold;margin-left: 50px;transition: 2s;}
+.foot a:hover{text-decoration: underline;}
+
+.copy{height: 90px;width: 100%;background-color: grey }
+.footbtn{ font-size: 18px; width: 130px; padding: 3px;}
+
+.register{ height: 1050px; width: 100%; background-image: url(images/whitetexture.gif); }
+.register1{ height: 8%; width: 100%; background-color: green;}
+.register2{ height: 25%; width: 100%; border-bottom: 3px grey double;}
+.label{font-size: 20px; margin-left: 70px;float: left;margin-bottom: 0px;}
+.input{width: 200px;height:20px; margin-left: 70px;margin-top: 25px;}
+input[type=text]{
+    width: 200px;height:20px; margin-left: 70px;margin-top:25px; border: none; border-bottom: 1px solid black; }
+input[type=number]{
+     width: 200px;height:20px; margin-left: 70px;margin-top: 25px; border: none; border-bottom: 1px solid black;}
+input[type=email]{
+    width: 200px;height:20px; margin-left: 70px;margin-top: 25px; border: none; border-bottom: 1px solid black; }
+input[type=radio]{
+    margin-left: 65px;
+    margin-top: 22px;
+}
+.register3{ height: 33%; width: 100%; border-bottom: 3px grey double;}
+.register4{ height: 15%; width: 100%;}
+.register5{ height: 10%; width: 100%;}
+.btn1{ font-size: 25px; width: 140px; margin-left: 500px; background-color: transparent; color: black; padding: 8px; font-weight: 500; transition: 1s; margin-top: 10px;}
+ .btn1:hover{ background-color: cornflowerblue; border: none; cursor: pointer;}
+
+ input[type=checkbox]{
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.sell{ height:480px; width: 100%; background-image: url(images/whitetexture.gif);}
+.sell1{ height: 50px; width: 100%; background-color: grey;}
+.sell2{ height: 330px; width: 100%; background-color: rgb(212, 208, 208);}
+.level{font-size: 20px; margin-left: 70px;float: left;margin-bottom: 0px;margin-right: 0px; margin-top: 30px;}
+.output{width: 210px;height:20px; margin-left: 70px;margin-top: 55px;}
+.sell3{ height: 100px; width: 100%;}
+.sellbtn{height: 45px;width: 130px; font-size: 20px; font-weight: 700; margin-top: 25px; transition: 1s;}
+.sellbtn:hover{ border: 2px black solid; cursor: pointer; box-shadow: 0px 0px 5px black; background-color:gray;}
+
+/* Live Trade--------------------------------------------------------------------------- */
+            
+           .lttrade{ height: 75%px; width: 100%;margin-top: 15px; background-color: transparent; background-image: url(images/whitetexture.gif);}
+           .lttrade1{ height: 50px; width: 100%; background-color:grey;}
+           .lttrade2{ height: 50px; width: 100%; background-color: rgb(156, 151, 151)}
+           .ltlabel{font-size: 20px; float: left;margin-bottom: 0px;margin-right: 0px;margin-top: 8px;}
+           .ltinput{width: 150px;height:20px; margin-left: 20px;margin-top: 15px;margin-right: 20px;}
+           .ltbtn{ height: 30px; width: 90px; background-color: grey;  font-size: 20px;margin-top: 6px;margin-left: 50px;}
+           .lttrade4{height: 75%; width: 100%; background-color:transparent;}
+           .lttable{margin-left:60px; margin-top: 20px;float: left;}
+           .lttable th{ padding: 10px; border: 2px solid black; font-size: 18px;}
+           .lttable td{ padding: 10px; border: 2px solid black; font-size: 18px; font-weight: 600;}
+           .ltbtn1{ height: 40px; width: 120px; background-color: rgb(187, 184, 184); margin-left: 580px; margin-top: 45px; font-size: 20px;}
+   
+
+
+    /* Offline Trade------------------------------------------------------------------- */
+
+           .trade{ height: 75%; width: 100%; background-color: transparent; margin-top: 10px; background-image: url(images/whitetexture.gif);}
+           .trade1{ height: 50px; width: 100%; background-color:grey}
+           .trade2{ height: 230px; width: 100%; background-color: transparent; padding-top: 10px; }
+           .oflabel{font-size: 20px; margin-left: 70px;float: left;margin-bottom: 0px;margin-right: 0px;}
+           .ofinput{width: 250px;height:20px; margin-left: 70px;margin-top: 25px;}
+           .ofbtn{ height: 40px; width: 90px; background-color: rgb(209, 202, 202); margin-left: 580px; margin-top: 45px; font-size: 20px;}
+           .trade3{ height: 50px; width: 100%; background-color: rgb(209, 202, 202);  }
+           .trade4{height: 75%; width: 100%;}
+           .table{margin-left:20px; margin-top: 20px;float: left;}
+           .table td,th{
+               border: 2px solid black; font-size: 18px; 
+           }
+           .ofbtn1{ height: 40px; width: 120px; background-color: grey; margin-left: 580px; margin-top: 45px; font-size: 20px;}
+
